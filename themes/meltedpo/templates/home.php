@@ -10,6 +10,6 @@ Template Name: Home
 	<title>MeltedPopsicle</title>
 </head>
 <body>
-	<h1>Michael, I am you!</h1>
+	<h1>Hey Kaitlyn! How are you?</h1>
 </body>
 </html>
