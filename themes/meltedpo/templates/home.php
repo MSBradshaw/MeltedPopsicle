@@ -10,6 +10,10 @@ Template Name: Home
 	<title>MeltedPopsicle</title>
 </head>
 <body>
-	<h1>Hey Kaitlyn! How are you?</h1>
+	<h1>hello kaitlyn</h1>
+	<?php
+	$temp = 'hello';
+echo the_content()
+?>
 </body>
 </html>
