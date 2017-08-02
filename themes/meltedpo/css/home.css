@@ -40,13 +40,11 @@ img {
     font-size: 2rem;
     text-align: left;
     color: #1F4F58;
+    margin-top: 1.5rem;
 }
 
 .most_recent_content {
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-bottom: 1px solid #000;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -69,7 +67,7 @@ img {
     color: white;
     line-height: 3rem;
     font-size: 2rem;
-    background: #1F4F58;
+    background: #183142;
     transition: opacity 0.3s linear;
     opacity: 1;
     text-decoration: none;
@@ -87,16 +85,58 @@ img {
 }
 
 .most_recent_post {
-    margin-bottom: 500px;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+.most_recent_content{
+    width: 78%;
+    float: left;
+    color: #4a4a4a;
+}
+.side_bar_outter {
+    width: calc(20% - 10px);
+    height: 500px;
+    float: right;
+    background-color: #183142;
+    border: 10px solid #276476;
+    margin-right: .5px;
 }
 
+.side_bar_img_wrapper {
+    width: 100%;
+}
 
+.side_bar_title {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+}
 
+.side_bar_content {
+    color: white;
+    margin: 1rem;
 
+}
 
+.blue_bar_at_bottom {
+    width: 100%;
+    background-color: #183142;
+    height: 155px;
+    float: right;
 
+}
 
+.footer_img {
+    height: 150px;
+    margin-left: calc((100% - 150px) / 2 );
+    margin-right: calc((100% - 150px) / 2 );
+}
 
+.footer_img img {
+    height: 100%;
+}
 
 
 
