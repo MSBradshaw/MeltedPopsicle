@@ -96,7 +96,6 @@ img {
 }
 .side_bar_outter {
     width: calc(20% - 10px);
-    height: 500px;
     float: right;
     background-color: #183142;
     border: 10px solid #276476;
