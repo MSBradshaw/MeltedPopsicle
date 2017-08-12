@@ -10,6 +10,17 @@ body {
     margin: 0;
 }
 
+.most_recent_content img {
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 625px) {
+  .most_recent_content img {
+    width: 500px;
+    margin-left: calc((100% - 500px)/2);
+  }
+}
+
 .hero_img_wrap{
     width: 80%;
     margin-left: 10%;
