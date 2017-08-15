@@ -1,0 +1,23 @@
+.page_content {
+    background: #f0f0f0;
+}
+
+.title_wrap{
+    width: 20%;
+    margin-left: 20%;
+    float: left;
+}
+.page_title {
+    float: left;
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 3rem;
+    margin-left: 15px;
+    color: #1F4F58;
+    font-weight: normal;
+}
+
+.header_wrap {
+    width: 100%;
+    overflow: auto;
+}
