@@ -25,10 +25,14 @@
 	<div class="the_post">
 		<?php
 		$content = wp_get_recent_posts();
-		if( $content ) {
-			?><h3 class="post_title"><?php echo $content[0]['post_title'];?></h3>
-			<p class="post_content"><?php echo $content[0]['post_content'];?></p><?php
-		}
+        if(have_posts()){
+            while(have_posts()){
+                the_post();
+	            ?><h3 class="post_title"><?php the_title();?></h3>
+                <p class="post_content"><?php the_content();?></p><?php
+            }
+        }
+
 		?>
 	</div>
 	<section class="bar_at_bottom">
