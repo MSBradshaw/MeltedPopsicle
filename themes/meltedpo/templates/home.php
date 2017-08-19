@@ -46,7 +46,7 @@ Template Name: Home
 				<?php
 				$content = wp_get_recent_posts();
 				if( $content ) {
-                    ?><a href=""><h3 class="post_title"><?php echo $content[0]['post_title'];?></h3></a>
+                    ?><h3 class="post_title"><?php echo $content[0]['post_title'];?></h3>
 					<p class="post_content"><?php echo $content[0]['post_content'];?></p><?php
 				}
 				?>
