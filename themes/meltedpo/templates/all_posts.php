@@ -12,15 +12,15 @@ Template Name: All Posts
 	<link rel="shortcut icon" href="wp-content/images/melted/favicon.ico" type="image/x-icon"/>
 </head>
 <body>
-	<div class="page_content">
+	<div class="content">
 		<div class="header_wrap">
 			<div class="title_wrap">
-					<img src="http://localhost:8080/melted/wp-content/images/melted/popsicle_title_blue_dark.svg"/>
+					<img src="http://localhost/melted/wp-content/images/meltednew/popsicle_title_dark_green.svg"/>
 			</div>
 			<h1 class="page_title">All Posts</h1>
 		</div>
 		<div class="nav">
-			<a href="" class="nav_item">Home</a>
+			<a href="../" class="nav_item">Home</a>
 			<a href="" class="nav_item">Most Popular</a>
 			<a href="" class="nav_item">About Us</a>
 		</div>
@@ -32,6 +32,11 @@ Template Name: All Posts
 			<h2><a class="post_link"href="<?php the_permalink(); ?>"><?php the_title(); echo ' : '; the_date(); ?></a></h2>
 		<?php endforeach; ?>
 		</div>
+        <section class="bar_at_bottom">
+            <div class="footer_img">
+                <img src="..\wp-content\images\melted\popsicle_icon_white.svg"/>
+            </div>
+        </section>
 	</div>
 </body>
 </html>
