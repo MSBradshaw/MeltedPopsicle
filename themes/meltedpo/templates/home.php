@@ -29,9 +29,6 @@ Template Name: Home
 		} // end while
 	} // end if
 	?>
-	<div class="title_wrap">
-			<img src="wp-content\images\melted\popsicle_title_blue_dark.svg"/>
-	</div>
 	<div class="content">
 		<section class="header">
 			<div class="hero_img_wrap">
@@ -39,7 +36,7 @@ Template Name: Home
 			</div>
 		</section>
 		<div class="nav">
-			<a href="" class="nav_item">All Posts</a>
+			<a href="all-posts/" class="nav_item">All Posts</a>
 			<a href="" class="nav_item">Most Popular</a>
 			<a href="" class="nav_item">About Us</a>
 		</div>
@@ -49,7 +46,7 @@ Template Name: Home
 				<?php
 				$content = wp_get_recent_posts();
 				if( $content ) {
-					?><h3 class="post_title"><?php echo $content[0]['post_title'];?></h3>
+                    ?><a href=""><h3 class="post_title"><?php echo $content[0]['post_title'];?></h3></a>
 					<p class="post_content"><?php echo $content[0]['post_content'];?></p><?php
 				}
 				?>
@@ -62,7 +59,7 @@ Template Name: Home
 				<p class="side_bar_content"><?php echo $side_content ?></p>
 			</section>
 		</section>
-		<section class="blue_bar_at_bottom">
+		<section class="bar_at_bottom">
 			<div class="footer_img">
 					<img src="wp-content\images\melted\popsicle_icon_white.svg"/>
 			</div>

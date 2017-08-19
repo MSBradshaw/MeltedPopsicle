@@ -6,6 +6,12 @@ blue: 53C0CC
 dark blue: 1F4F58
 */
 
+.content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 body {
     margin: 0;
 }
@@ -18,13 +24,11 @@ body {
   .most_recent_content img {
     width: 500px;
     margin-left: calc((100% - 500px)/2);
+    margin-right: calc((100% - 500px)/2);
   }
 }
 
 .hero_img_wrap{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 img {
@@ -46,11 +50,16 @@ img {
 .header {
 }
 
+.post_content {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
 .most_recent_section_title{
     font-family: sans-serif;
     font-size: 2rem;
     text-align: left;
-    color: #1F4F58;
+    color: #183142;
     margin-top: 1.5rem;
 }
 
@@ -62,9 +71,6 @@ img {
 }
 
 .nav {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
     padding-left: 0;
     margin-top: -2px;
     height: 3rem;
@@ -91,13 +97,11 @@ img {
 .post_title {
     font-family: sans-serif;
     font-size: 1.5rem;
-    color: #53C0CC;
+    color: #2A85A0;
     margin-left: 12%;
 }
 
 .most_recent_post {
-    width: 80%;
-    margin-left: 10%;
     float: left;
 }
 .most_recent_content{
@@ -106,10 +110,11 @@ img {
     color: #4a4a4a;
 }
 .side_bar_outter {
+    margin-top: 1.5rem;
     width: calc(20% - 10px);
     float: right;
-    background-color: #183142;
-    border: 10px solid #276476;
+    background-color: #F7F7F7;
+    border: 10px solid #183142;
     margin-right: .5px;
 }
 
@@ -118,19 +123,19 @@ img {
 }
 
 .side_bar_title {
-    color: white;
+    color: #183142;
     text-align: center;
     font-family: sans-serif;
     font-weight: normal;
 }
 
 .side_bar_content {
-    color: white;
+    color: #183142;
     margin: 1rem;
 
 }
 
-.blue_bar_at_bottom {
+.bar_at_bottom {
     width: 100%;
     background-color: #183142;
     height: 155px;
@@ -148,7 +153,36 @@ img {
     height: 100%;
 }
 
+@media (max-width: 850px ) {
+    .side_bar_outter {
+        display: none;
+    }
 
+    .most_recent_content{
+        width: 100%;
+    }
+
+    .nav_item {
+        font-size: 1.5rem;
+    }
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px ) {
+    .nav_item {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px ) {
+        .content {
+            width: 1200px;
+            margin-left: calc((100% - 1200px) / 2);
+        }
+}
 
 
 
