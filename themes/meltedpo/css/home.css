@@ -5,7 +5,9 @@ yellow: DCDA65
 blue: 53C0CC
 dark blue: 1F4F58
 */
-
+a {
+    text-decoration: none;
+}
 .content {
     width: 80%;
     margin-left: 10%;
