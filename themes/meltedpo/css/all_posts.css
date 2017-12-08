@@ -87,7 +87,37 @@ body {
 .footer_img img {
     height: 100%;
 }
-
+.post_wrapper{
+    width: 22.5%;
+    margin: 1.25%;
+    float: left;
+}
+.post_wrapper img{
+    width: 100%;
+}
+.post_tag{
+    text-decoration: none;
+}
+.post_name{
+    font-family: "Vitesse A", "Vitesse B";
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    margin-top: -80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.post_date{
+    font-family: "Vitesse A", "Vitesse B";
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    margin-top: -40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 @media (max-width: 850px ) {
     .side_bar_outter {
         display: none;
@@ -108,6 +138,21 @@ body {
     .post_link {
         font-size: 1.2rem;
     }
+    .post_wrapper{
+        width: 30.3333%;
+        margin: 1.5%;
+        float: left;
+    }
+    .post_name{
+        font-size: 12px;
+        height: 20px;
+        margin-top: -40px;
+    }
+    .post_date{
+        font-size: 12px;
+        height: 20px;
+        margin-top: -20px;
+    }
 }
 
 @media (max-width: 500px ) {
@@ -117,12 +162,33 @@ body {
     .post_link {
         font-size: 1rem;
     }
+    .post_wrapper{
+        width: 45%;
+        margin: 2.5%;
+        float: left;
+        margin-bottom: 0;
+    }
+    .post_name{
+        font-size: 12px;
+        height: 20px;
+        margin-top: -40px;
+    }
+    .post_date{
+        font-size: 12px;
+        height: 20px;
+        margin-top: -20px;
+    }
 }
 
 @media (min-width: 1200px ) {
     .content {
         width: 1200px;
         margin-left: calc((100% - 1200px) / 2);
+    }
+    .post_wrapper{
+        width: 22.5%;
+        margin: 1.25%;
+        float: left;
     }
 }
 
