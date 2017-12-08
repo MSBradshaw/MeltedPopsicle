@@ -1,0 +1,113 @@
+/**
+*This file contains css that is used on every page such as header, footer and nav bar css
+*/
+body {
+    margin: 0;
+}
+
+.content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.title_wrap{
+    width: 30%;
+    min-width: 250px;
+    height: auto;
+    float: left;
+}
+.page_title {
+    float: left;
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 3rem;
+    margin-left: 15px;
+    color: #3c849f;
+    font-weight: normal;
+}
+
+.header_wrap {
+    width: 100%;
+    overflow: auto;
+}
+
+.nav {
+    width: 100%;
+    padding-left: 0;
+    height: 3rem;
+}
+
+.nav_item{
+    font-family: sans-serif;
+    width: 33.33333%;
+    text-align: center;
+    float: left;
+    color: white;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    background: #3c849f;
+    transition: opacity 0.3s linear;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.nav_item:hover {
+    opacity: .75;
+}
+
+
+.bar_at_bottom {
+    width: 100%;
+    background-color: #3c849f;
+    height: 155px;
+    float: right;
+
+}
+.footer_img {
+    height: 150px;
+    margin-left: calc((100% - 150px) / 2 );
+    margin-right: calc((100% - 150px) / 2 );
+}
+
+.footer_img img {
+    height: 100%;
+}
+@media (max-width: 850px ) {
+    .side_bar_outter {
+        display: none;
+    }
+
+    .most_recent_content{
+        width: 100%;
+    }
+
+    .nav_item {
+        font-size: 1.5rem;
+    }
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .post_link {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px ) {
+    .nav_item {
+        font-size: 1rem;
+    }
+    .post_link {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px ) {
+    .content {
+        width: 1200px;
+        margin-left: calc((100% - 1200px) / 2);
+    }
+}
