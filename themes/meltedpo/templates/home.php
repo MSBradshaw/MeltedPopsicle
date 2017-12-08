@@ -10,6 +10,7 @@ Template Name: Home
 	<title>MeltedPopsicle</title>
 	<link rel="stylesheet" href="wp-content/themes/meltedpo/css/home.css">
 	<link rel="shortcut icon" href="wp-content\images\melted\favicon.ico" type="image/x-icon"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<?php
