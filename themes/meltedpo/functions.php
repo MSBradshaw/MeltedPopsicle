@@ -19,6 +19,8 @@ function melted_header($image_name="popsicle_title_blue.svg"){
 				?><link rel="stylesheet" href="<?php echo $home_url . "/wp-content/themes/meltedpo/css/all_posts.css" ?>"><?php
 			}else if( true === is_page( array( 'Home' ) ) ){
 				?><link rel="stylesheet" href="<?php echo $home_url . "/wp-content/themes/meltedpo/css/home.css" ?>"><?php
+			}if( true === is_singular( 'post' ) ){
+				?><link rel="stylesheet" href="<?php echo $home_url . "/wp-content/themes/meltedpo/css/single-post.css" ?>"><?php
 			}
 			?>
 			<link rel="shortcut icon" href="wp-content/images/melted/favicon.ico" type="image/x-icon">
